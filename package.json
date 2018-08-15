@@ -1,0 +1,31 @@
+{
+  "name": "spotify-import",
+  "version": "1.0.0",
+  "description": "import music to your Spotify",
+  "main": "app/index.js",
+  "dependencies": {
+    "iconv-lite": "^0.4.23",
+    "fast-csv": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.7.0",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "^5.2.0",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "keywords": [
+    "spotify",
+    "import",
+    "csv",
+    "playlists",
+    "music",
+    "export"
+  ],
+  "author": "Rhymmor",
+  "license": "MIT"
+}
